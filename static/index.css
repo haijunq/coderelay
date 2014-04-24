@@ -1,0 +1,98 @@
+body {
+	margin: 0 0 0 0;
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;
+} 
+
+h1 {
+	background: #005AB4;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+span {
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+
+iframe {
+	border:	1px solid lightgray;
+	width: 70%;
+	height: 800px;
+}
+
+li {
+	font-size: 18px;
+}
+
+#main {
+	clear: both;
+	display: block;
+}
+
+#sidebar {
+	float: left;
+	display: block;
+	width: 25%;
+	margin-left: 1%;
+	text-align: left;		
+}
+
+#rules {
+	/*text-align: left;	*/
+    border:1px solid lightgray;
+    padding: 0.5em;
+}
+
+#projects {
+    margin-left: auto; 
+    margin-right: auto;
+    border:1px solid lightgray;
+}
+
+table, th, td {
+    border: 1px solid lightgray;
+}
+
+th {
+	background-color: #eeeeee;
+}
+
+table {
+    width: 460px;
+}
+
+#projects tr:nth-child(2n-1) {
+    background-color: #eeeeee;
+}
+
+.button {
+	margin: auto;
+	width: 10em;
+	font-size: 18px;
+}
+
+
+#button_div {
+	/*width: 25%;*/
+	text-align: center;
+}
+
+a.delete {
+    margin-left: 20px;
+    color: maroon;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px;
+}
+
+a.changeFrame {
+    margin-left: 20px;
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+    border: 2px;	
+}
