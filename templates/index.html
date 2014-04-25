@@ -8,11 +8,22 @@
         <script src = "{{url_for('static', filename='initiator.js') }}" type="text/javascript"></script>
 	</head>
 	<body>
-		<h1>Code Relay Game as Web Applications</h1>
+        <div id="logininfo">
+            <table>
+                <tbody>
+                    <tr><td>Player Name:</td><td>{{curuser}}</td></tr>
+                    <tr><td>Player visits:</td><td>{{curvisit}}</td></tr>
+                    <tr><td>Total visits:</td><td>{{totalvisit}}</td></tr>
+                </tbody>
+            </table>
+        </div>
+		<div id="h1_div"><h1>Code Relay Game as Web Applications</h1></div>
+        <div id="logout"><a href="/">LogOut</a></div>
+		<br>
 		<div id="main">
 			<div id="sidebar">
 				<div id="rules">
-					<span>Rules:</span>
+					<span>Rules</span>
 					<ul>
 						<li>Everybody is welcome subject to the agreement of rules.</li>
 						<li>Contributors may check in one function at a time.</li>
@@ -22,30 +33,31 @@
 					</ul>	
 				</div>
                 <br>
-				<div id="button_div">
-					<button class="button" id="initial_button">Initial Code</button>
-					<button class="button" id="start_new_button">Start Game</button>
-				</div>		
+                <div id="button_div">
+                    <button class="button" id="initial_button">Initial Code</button>
+                    <button class="button" id="start_new_button">Start Game</button>
+                </div>      
                 <br>
-                <div>
-	                <span>Code Relay Projects:</span>
-	                <br>
-				    <table id="projects">
-				         <tbody>
-				             <tr>
-				                 <th>Project</th>
-	                             <th>Contributors</th>
-	                             <th>Commits</th>
-                                 <th>Repository</th>
-                                 <th>Website</th>
-				             </tr>
-				          </tbody>
-				    </table>
-			    </div>
     
 			</div>
 
+                <div id="table_div">
+                    <span>Code Relay Projects</span>
+                    <table id="projects">
+                         <tbody>
+                             <tr>
+                                 <th>Project</th>
+                                 <th>Players</th>
+                                 <th>Commits</th>
+                                 <th>Repo</th>
+                                 <th>Website</th>
+                                 <th>Delete</th>
+                             </tr>
+                          </tbody>
+                    </table>
+                </div>
 			<div id="rightbar">
+                <span>Code Relay Projects Preview</span>
 				<iframe id="iframe" src="{{url_for('static', filename='blank.html') }}"></iframe>
 			</div>
 

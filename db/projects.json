@@ -1,0 +1,46 @@
+[
+    {
+        "active": false, 
+        "name": "coderelayprj_01"
+    }, 
+    {
+        "active": true, 
+        "name": "coderelayprj_02"
+    }, 
+    {
+        "active": false, 
+        "name": "coderelayprj_03"
+    }, 
+    {
+        "active": false, 
+        "name": "coderelayprj_04"
+    }, 
+    {
+        "active": true, 
+        "name": "coderelayprj_05"
+    }, 
+    {
+        "active": true, 
+        "name": "coderelayprj_06"
+    }, 
+    {
+        "active": true, 
+        "name": "coderelayprj_07"
+    }, 
+    {
+        "active": false, 
+        "name": "coderelayprj_08"
+    }, 
+    {
+        "active": false, 
+        "name": "coderelayprj_09"
+    }, 
+    {
+        "active": false, 
+        "name": "coderelayprj_10"
+    }, 
+    {
+        "active": false, 
+        "name": "coderelayprj_11"
+    }
+]

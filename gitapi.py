@@ -6,10 +6,10 @@ Created on Mar 23, 2014
 import json
 import requests
 
-GITAPIPRE = 'https://api.github.com/repos/haijunq/'
-GITPRE = 'https://github.com/haijunq/'
+GITAPIPRE = 'https://api.github.com/repos/eece518/'
+GITPRE = 'https://github.com/eece518/'
 DOTGIT = '.git'
-projectName = 'flaskdemo'
+# projectName = 'dblike'
 COMMITACTIVITY = '/stats/commit_activity'
 CONTRIBUTORS = '/stats/contributors'
 HTTP = 'http://'
@@ -32,7 +32,7 @@ def getRepo(projectName):
     return GITPRE + projectName + DOTGIT
 
 def doGet(url):
-    response = requests.get(url)
+    response = requests.get(url, auth=('eece518@gmail.com','Hit518Project'))
     resp = json.dumps(response.json(), indent=4)
     return json.loads(resp)
 
