@@ -1,7 +1,7 @@
 [
     {
         "username": "hit_user1", 
-        "visits": 38, 
+        "visits": 39, 
         "gituser": "hit_user1@sohu.com"
     }, 
     {
@@ -26,7 +26,7 @@
     }, 
     {
         "username": "hit_user6", 
-        "visits": 44, 
+        "visits": 45, 
         "gituser": "hit_user6@cn.com"
     }
 ]
